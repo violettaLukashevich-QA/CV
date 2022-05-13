@@ -1,0 +1,77 @@
+
+body {
+  font-family: Roboto, sans-serif;
+  background: url(/Users/violaluka/Desktop/web_play/background.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-color: hwb(208 16% 4% / 0.867);
+  background-size: cover;
+  
+}
+
+.container {
+  margin-left: 180px;
+  padding: 0 40px;
+}
+
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+  color:rgb(59, 6, 132);
+  
+}
+
+a:hover {
+  color:#074e7de7;
+  width: max-content;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #0202026b;
+  width: 200px;
+}
+
+h1 {
+  font-size: 2em;
+  margin:100px 0 0 0;
+  margin-bottom: 50px;
+ 
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+}
+
+.photo {
+  border-radius: 100px;
+  border: 3px solid transparent;
+  box-shadow: 0 4px 15px 0px #1e8ce0e7;
+  object-fit: cover;
+}
+
+.photo:hover {
+  border: 3px solid #1a8cd8e7;
+}
+
+.buttons {
+background-color:#edcdee;
+border-width: 1px;
+border-radius: 11px;
+border-style: solid;
+border-color: rgb(95, 59, 153);
+padding: 6px 12px;
+cursor: pointer;
+font-size: 14px;
+
+
+}
